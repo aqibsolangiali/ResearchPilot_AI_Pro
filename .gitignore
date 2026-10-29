@@ -1,9 +1,26 @@
+# Python environments and caches
 **/.venv/
 **/__pycache__/
 **/.pytest_cache/
+*.py[cod]
+
+# Frontend dependencies / build outputs
 frontend/node_modules/
 frontend/dist/
+
+# Local databases and uploaded source data
 backend/data/
 *.db
 *.sqlite3
+
+# All local environment and credential files (keep the example)
 .env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+
+# Editor and OS clutter
+.DS_Store
+Thumbs.db
